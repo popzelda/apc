@@ -1,0 +1,310 @@
+
+
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+
+{% load static %}
+
+{% block container %}
+<style>
+      
+    body {
+color:black;
+background-color:white;
+background-image:url({% static 'images/Marché_dAflou,_1973.jpg'%});
+background-repeat:no-repeat;
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; /* version standardisée */
+background-attachment:fixed;
+}
+button{
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+
+}
+label{
+
+  color: rgb(241, 231, 231);
+}
+#lettres {
+
+  display: none;
+}
+#check{
+display: none;
+
+}
+#news{
+ display: none;
+
+ padding: 4;
+}
+ 
+
+
+
+
+</style>
+<center>
+<div class="container">
+  <a href="{% url 'accounts:home'%}"> <h1 style="color:rgb(249, 248, 252);font-size:40px;"> صفحة الادارة</h1></a> 
+  <!--
+  {% for n in news  %} 
+ {{n.desc_n}} <br>
+ {{n.created_n}} <br>
+ {% endfor %} 
+ -->
+ </div>
+</center>
+ <div class="container">
+    <div class="row">
+      <div class="col-6">
+
+        
+       <!----><div class="card" style="width: 18rem;">
+         <div class="card-header">
+         ادوات الادارة
+         </div>
+           <ul class="list-group list-group-flush">
+             <li class="list-group-item"> <button id="b1" >جديد الموقع</button> </li>
+            <li class="list-group-item"><button id="b2">رسائل و شكاوى المواطنين</button></li>
+            <li class="list-group-item"><button id="b3" >تاكيد مواعيد الاستقبال</button></li>
+          </ul>
+       </div> 
+      </div>
+
+   <div class="col-6">
+-----------------------------
+        <div id="news">
+          <button id="baddl" >   اضافة    </button>
+          <button id="breml" >    حذف   </button>
+          <div id="addl">     
+            <form class="row g-3" method="POST" enctype= multipart/form-data >
+              {%csrf_token%}
+            <label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> عنوان الصفحة      :</label> 
+            {{form_n.page_n}} <br><br><br>
+            <label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> صورة الصفحة         :</label> 
+            {{form_n.photo_n}} <br><br><br>
+            <label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> وصف الصفحة     :</label>  
+            {{form_n.desc_n}} <br><br><br>
+            <button class="btn btn-primary" type="submit">  حــــــفظ</button> <br>
+            </form>
+          </div>    
+          <div id="reml">    <br>
+          
+            {% for n in new_to_del  %}
+              <a href="{% url 'accounts:del_n' n.id %}"> {{n.id}}{{n.desc_n}} </a><br>
+            {% endfor %}
+          
+          
+          
+          </div>
+      </div>
+      ---------------------------
+      <div id="lettres">
+        <button id="b5" >   كل الرسائل</button>
+                <button id="b4" >    قطع اراضي </button>
+                <button id="b6" >     جمعيات المجتمع المدني</button>
+                <button id="b7" >      هيئات نظامية </button>
+                <button id="b8" >   موظف بلدية  </button>
+                <button id="b9" >    مواطنين   </button>
+                 
+            
+
+                <div id="lots">
+                          
+                          
+                            <h1>lettres </h1>
+                          {%for re in req_f%}
+                          <label for="titre">   المرسل :</label> 
+                          {{re.userr}}   <br>
+                          <label for="titre">    البريد الالكتروني :</label> 
+                          {{re.userr.email}}   <br>
+                          <label for="titre"> عنوان الرسالة</label> 
+                          {{re.Titre}}   <br>
+                          <label for="created_r">   تاريخ الارسال</label> 
+                          {{re.created_r}} <br>
+                          <label for="join_f">   ملفات مرفقه</label> 
+                          {{re.join_f}}        <br>
+                          <label for="photo">   صورة مرفقه</label> 
+                          {{re.photo}}<br>
+                          <hr>
+                          {%endfor%}
+                        
+                   
+                        
+                </div>
+                <div id="slots">
+                <h1>lettres </h1>
+                {%for r in req%}
+                <label for="titre">   المرسل :</label> 
+                {{r.userr}}   <br>
+                <label for="titre">   البريد الالكتروني :</label> 
+                {{r.userr.email}}   <br>
+                <label for="titre"> عنوان الرسالة</label> 
+                {{r.Titre}}   <br>
+                <label for="created_r">   تاريخ الارسال</label> 
+                {{r.created_r}} <br>
+                <label for="join_f">   ملفات مرفقه</label> 
+                {{r.join_f}}        <br>
+                <label for="photo">   صورة مرفقه</label> 
+                {{r.photo}}<br>
+                <hr>
+                {%endfor%}
+              </div>
+              <div id="asso">
+
+                  <h1>association</h1>
+                  {% for ass in  req_ass_l%}
+                  <label for="titre">   المرسل :</label> 
+                {{ass.user}}   <br>
+                <label for="titre">   البريد الالكتروني :</label> 
+                {{ass.user.email}}   <br>
+                <label for="titre">  phone</label> 
+                {{ass.phone}}   <br>
+                <label for="created_r">   تاريخ الارسال</label> 
+                {{ass.created_r}} <br>
+                <label for="join_f">   ملفات مرفقه</label> 
+                {{ass.join_f}}        <br>
+                <label for="photo">   صورة مرفقه</label> 
+                {{ass.photo}}<br>
+                <hr>
+                  
+                  {% endfor %}
+              </div>
+              <div id="organ">
+                  <h1>organistation</h1>
+              </div>
+              <div id="apc">
+                  <h1> apc</h1>
+              </div>
+              <div id="cito">
+                  <h1> cotoyens</h1>
+              </div>
+      </div>
+      ------------------------------------
+      <div id="check">
+        <h1>check</h1>
+      </div>
+----------------------
+  </div>
+    </div>
+
+</div>
+<br><br><br>
+<script src="jquery/jquery-3.6.0.min.js"></script>
+<script>
+/*  
+if ($('#isSelected').attr('checked')) {
+  $("#divShow").show();
+} else {
+  $("#divHide").hide();
+}
+                  */
+
+  $(document).ready(function(){
+    $('#b1').click(function(){
+      $('#news').show()
+      $('#lettres').hide()
+      $('#check').hide()
+
+  });
+  $('#b2').click(function(){
+      $('#news').hide()
+      $('#lettres').show()
+      $('#check').hide()
+  });
+  $('#b3').click(function(){
+      $('#news').hide()
+      $('#lettres').hide()
+      $('#check').show()
+
+  });
+
+  /*
+  <div id="asso"></div>
+              <div id="organ"></div>
+              <div id="apc"></div>
+              <div id="cito"></div>
+
+  */
+  $('#b4').click(function(){
+      $('#lots').show()
+      $('#slots').hide()
+      $('#organ').hide()
+      $('#asso').hide()
+      $('#apc').hide()
+      $('#cito').hide()
+      
+       
+
+  });
+  $('#b5').click(function(){
+      $('#lots').hide()
+      $('#slots').show()
+      $('#organ').hide()
+      $('#asso').hide()
+      $('#apc').hide()
+      $('#cito').hide()
+       
+
+  });
+  $('#b6').click(function(){
+      $('#lots').hide()
+      $('#slots').hide()
+      $('#organ').hide()
+      $('#asso').show()
+      $('#apc').hide()
+      $('#cito').hide()
+       
+
+  });
+  $('#b7').click(function(){
+      $('#lots').hide()
+      $('#slots').hide()
+      $('#organ').show()
+      $('#asso').hide()
+      $('#apc').hide()
+      $('#cito').hide()
+
+  });
+  $('#b8').click(function(){
+      $('#lots').hide()
+      $('#slots').hide()
+      $('#organ').hide()
+      $('#asso').hide()
+      $('#apc').show()
+      $('#cito').hide()
+
+
+  });
+  $('#b9').click(function(){
+      $('#lots').hide()
+      $('#slots').hide()
+      $('#organ').hide()
+      $('#asso').hide()
+      $('#apc').hide()
+      $('#cito').show()
+
+       
+
+  });
+  $('#baddl').click(function(){
+      $('#addl').show()
+      $('#reml').hide()
+      
+
+  });
+  $('#breml').click(function(){
+      $('#addl').hide()
+      $('#reml').show()
+      
+
+  });
+  })
+
+
+</script>
+
+ {% endblock%}

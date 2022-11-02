@@ -1,0 +1,260 @@
+{% load static %}
+<header>
+<html lang="ar" dir="rtl">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <style>
+      .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+    </style>
+  </header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" navbar-right>
+
+
+    <div class="container-fluid"> 
+      <a class="navbar-brand" href="{%url 'accounts:home'%}"> <img src="{% static 'images/apc.jpg'%}" width="30" height="30" alt="">  </a>
+     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" > 
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">  
+           <hr>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{%url 'accounts:home'%}">الرئيسية</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#"> اخبار و مستجدات وطنية  </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">اعلانات و بيانات   </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'accounts:liens' user.id %}"> روابط و ارقام مهمة </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              الشباك الالكنروني
+            </a>
+            
+            <ul class="dropdown-menu">
+              
+              <li><a class="dropdown-item" href="https://services.interieur.gov.dz/Autorisation" target="_blank"> طلب رخصة</a></li>
+              <li><a class="dropdown-item" href="https://prestations.interieur.gov.dz/association/" target="_blank">طلب تسجيل التصريح التأسيسي للجمعيات البلدية و لجان الأحياء</a></li>                       
+              
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="https://passeport.interieur.gov.dz/Ar/Accueil/Accueil" target="_blank">جواز السفر البيومتري  </a></li>           
+              <li><a class="dropdown-item" href="https://macnibe.interieur.gov.dz/WFDefaultAr.aspx" target="_blank"> بطاقة التعريف الوطنية البيومترية    </a></li>
+              <li><a class="dropdown-item" href="https://etatcivil.interieur.gov.dz/" target="_blank"> شهادة الميلاد  </a></li>
+              <li><a class="dropdown-item" href="https://etatcivil.interieur.gov.dz/ActeMariage/" target="_blank">  عقد الزواج  </a></li>
+              <li><a class="dropdown-item" href="https://etatcivil.interieur.gov.dz/ActeDeces/" target="_blank"> شهادة وفاة   </a></li>
+            </ul>
+            
+            
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              خدمـات
+            </a>
+            
+            <ul class="dropdown-menu">
+              {% if user.is_authenticated %}
+              <li><a class="dropdown-item" href="{% url 'accounts:profile' user.id %}">عرض الملف الشخصي</a></li>
+              <li><a class="dropdown-item" href="{% url 'accounts:reequette'  user.id %}">رساله الى السيد رئيس البلدية</a></li>
+              <li><a class="dropdown-item" href="{% url 'accounts:profile' user.id %}"> حجز موعد استقبال مع رئيس البلدية</a></li>
+              {% if user.username == 'apckhaled'%}
+              <li><a class="dropdown-item" href="{% url 'accounts:apc' user.id %}">ادارة الموقع</a></li>
+              {%endif%}
+              <li><hr class="dropdown-divider"></li>
+              {% endif%}
+              <li><a class="dropdown-item" href="{% url 'about_us'  %}"> حول الموقع</a></li>
+            </ul>
+            
+            {% if user.is_authenticated %}
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'accounts:profile' user.id %}"> مرحبا بك يا  :   {{ user}}</a>
+          </li>
+          {% else %}
+          
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'accounts:register'%}">التسجيل على الموقع</a>
+          </li>
+          {% endif%}                  
+          
+          {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'accounts:logout'%}"> الخـروج </a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'accounts:login'%}"> تسجيل الدخول</a>
+          </li>
+          {% endif%}
+          {% if user.is_authenticated %}
+              <a class="nav-link" href="{% url 'accounts:reequette'  user.id %}">اتصل بنا</a>
+              {% else %}
+              <a class="nav-link" href="{% url 'accounts:login'  %}">     يجب التسجيل للتواصل معنا</a>
+              {% endif%}
+        </ul>
+        {% if user.username == 'apckhaled'%}
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        {% else %}
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success nav-link disabled" type="submit">Search</button>
+        </form>
+        {% endif%}
+      </div>
+    </div>
+  </nav>
+  
+  {% block container %}
+
+  {% endblock%}
+  
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+  <!-- Remove the container if you want to extend the Footer to full width. 
+
+  <footer class="text-center text-lg-start fixed-bottom" style="background-color: #c7c0f1;">
+    <!-- Copyright 
+    <div class="container d-flex justify-content-center py-3">
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-youtube"></i>
+      </button>
+      
+      <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+        <i class="fab fa-twitter"></i>
+      </button>
+    </div>
+  
+   
+    <div class="text-center text-white p-3" style="background-color: rgba(78, 87, 79, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="http://127.0.0.1:8000/">Apc-Hassi R'mel - Bellil.com</a>
+    </div>
+    
+  </footer> -->
+  
+<!-- 
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-2">
+  <!-- Footer -->
+  <footer class="text-center text-white fixed-bottom" style="background-color: #5160b6">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-2">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-2">
+          <!-- Grid column -->
+          <div class="col-md-1">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="{% url 'about_us'  %}" class="text-white">حول الموقع</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="https://www.facebook.com/profile.php?id=100033449670960" target="_blank" class="text-white">صفحتنا على الفيسبوك</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-1">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">مساعدة</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              {% if user.is_authenticated %}
+              <a href="{% url 'accounts:reequette'  user.id %}" class="text-white">اتصل بنا</a>
+              {% else %}
+              <a href="{% url 'accounts:login'  %}" class="text-white">     يجب التـسجيل للتواصل معنا</a>
+              {% endif%}
+            </h6>
+          </div> <br>
+          
+      <a class="text-white" href="http://127.0.0.1:8000/accounts/"
+         >© 2022 Copyright : Apc-Hassi-rmel.com</a
+        >
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <!-- Section: Text -->
+      
+      <!-- Section: Text -->
+
+      <!-- Section: Social -->
+      {% if user.username == 'apckhaled'%}
+      <a href="https://www.compteurdevisite.com" title="compteur site web html"><img src="https://counter5.optistats.ovh/private/compteurdevisite.php?c=xh6nz5cquplqed67srkpr9j8kzs16w3a" border="0" title="compteur site web html" alt="compteur site web html"></a>
+      <!-- Section: Social -->
+      {% endif %}
+    </div>
+    <!-- Grid container -->
+
+    <!--  
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      
+    </div>
+    Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+<script src="jquery/jquery-3.6.0.min.js">
+function toggleDropdown (e) {
+  const _d = $(e.target).closest('.dropdown'),
+    _m = $('.dropdown-menu', _d);
+  setTimeout(function(){
+    const shouldOpen = e.type !== 'click' && _d.is(':hover');
+    _m.toggleClass('show', shouldOpen);
+    _d.toggleClass('show', shouldOpen);
+    $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+  }, e.type === 'mouseleave' ? 300 : 0);
+}
+
+$('body')
+  .on('mouseenter mouseleave','.dropdown',toggleDropdown)
+  .on('click', '.dropdown-menu a', toggleDropdown);
+</script>
+
+
+<!-- End of .container -->
+ 

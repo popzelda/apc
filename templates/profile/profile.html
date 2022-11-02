@@ -1,0 +1,43 @@
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+
+  
+
+{% block container %}
+<h1>صفحة المعلومات الشخصية للمستخدم {{user}}</h1>
+<div class="row">
+  <div class="col-sm-9"> 
+       <div class="container">
+            <br><hr>
+            <h1> {{util}}</h1> <br>
+            <hr>---- <br>
+            <div class="container">
+           
+   
+<h2>
+             <label for="">  الاسم   :  </label>{{util.first_name}} 
+           <br> <br>
+             <label for="">  اللقب :  </label>  {{util.last_name}} <br> <br>
+             {% for i in prof %}
+             <label for=""> رقم الهاتف   :  </label>  {{i.phone}} 
+              
+              
+ 
+ 
+           {% endfor %}
+           <br> <br>
+           <label for="">  البريد الالكتروني   :  </label>   {{util.email}} <br> <br></h2>
+                 <a href="{% url 'accounts:update_us' user.id %}"> تعديل</a>
+         </div>
+        <hr>---- <br>
+      </div>
+        
+
+  </div>
+  <div class="col-sm-3"> 
+    {% for i in prof %}
+    <img src="{{i.photo.url}}">
+    {% endfor %}
+  </div>
+</div>
+{% endblock%}

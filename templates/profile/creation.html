@@ -1,0 +1,38 @@
+{% extends 'base.html'%}
+{% load bootstrap4 %}
+
+{% block container%}
+<div class="container">
+<h1>مرحبا بك معنا</h1>
+</div>
+<div class="container">
+   
+    <form class="row g-3" method="POST" enctype= multipart/form-data >
+        {% csrf_token %}
+        <div class="row">
+          <div class="col-6">
+        {% bootstrap_form form_u%}
+      </div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <label for="Titre" style="color: #01060e">  رقم الهاتف  </label> <br>
+        {{form_p.phone}} <br>
+        <label for="Titre" style="color: #020a14">        معلومات عامة  </label><br>
+        {{form_p.bio_p}} <br>
+        <label for="Titre" style="color: #010408">  صورة البروفايل  </label><br>
+        {{form_p.photo}} <br>
+        <label for="Titre" style="color: #010408">    نوع المستخدم</label><br>
+        {{form_p.list_ch}} <br>
+      </div>
+      </div>
+        <button class="btn btn-primary" type="submit">ســـــــجـــــــل</button>
+      </form>
+      <br>
+      <br>
+
+    
+
+  </div>
+
+
+{% endblock%}

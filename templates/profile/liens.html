@@ -1,0 +1,123 @@
+
+
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+
+{% load static %}
+<script src="admine.js"></script>
+{% block container %}
+<head>
+
+  <style>
+      
+      body {
+color:black;
+background-color:white;
+background-image:url({% static 'images/dz.jpg'%});
+background-repeat:no-repeat;
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+ background-attachment:fixed;
+}
+       
+     
+  </style>
+</head>
+<body>
+  
+  
+
+<div class="container">
+ <br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/moradia.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">رئاسة الجمهورية </h5>
+              <p class="card-text"><span>أرقام الهاتف </span>	  021 69 15 15</p>
+              <p class="card-text"> أرقام الفاكس	----------- </p>
+              <p class="card-text"> عنوان الإيميل	contact@el-mouradia.dz  </p>
+              <p class="card-text"> موقع الانترنت	<a href="https://www.el-mouradia.dz/ar/home" target="_blank">el-mouradia.dz</a></p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/hokoma.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">رئــيس الحكومة  </h5>
+              <p class="card-text">أرقام الهاتف	  021 73 12 00/021 73 12 00</p>
+              <p class="card-text"> أرقام الفاكس	----------- </p>
+              <p class="card-text"> عنوان الإيميل	   </p>
+              <p class="card-text"> موقع الانترنت	<a href="https://www.premier-ministre.gov.dz/ar" target="_blank">premier-ministre.gov.dz</a></p>
+            
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/daflouuu.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">  بلدية حاسي الرمل </h5>
+              <p class="card-text">أرقام الهاتف  	029 96 99 99/ 029 96 99 99</p>
+              <p class="card-text"> أرقام الفاكس	029 96 55 77/029 96 55 77</p>
+              <p class="card-text"> عنوان الإيميل	Apc-bellil@gmail.com   </p>
+              <p class="card-text"> موقع الانترنت	<a href="http://127.0.0.1:8000/accounts/" target="_blank">Apc-bellil.com</a></p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/wlaghouat.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ولايــة الأغواط</h5>
+              <p class="card-text">أرقام الهاتف	029 93 11 05/029 93 10 02</p>
+              <p class="card-text"> أرقام الفاكس	029 93 21 22/029 93 57 57 </p>
+              <p class="card-text"> عنوان الإيميل	wilaya.laghouat@gmail.com   </p>
+              <p class="card-text"> موقع الانترنت	<a href="http://www.wilaya-laghouat.dz" target="_blank">http://www.wilaya-laghouat.dz</a></p>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/pompier.jpg'%}" class="card-img-top" alt="protection civil">
+            <div class="card-body">
+              <h5 class="card-title">الحماية المدنية</h5>
+              <p class="card-text">أرقام الهاتف	029 93 11 05/029 93 10 02</p>
+              <p class="card-text"> أرقام الفاكس	029 93 21 22/029 93 57 57 </p>
+              <p class="card-text"> عنوان الإيميل	wilaya.laghouat@gmail.com   </p>
+              <p class="card-text"> موقع الانترنت	<a href="http://www.wilaya-laghouat.dz" target="_blank">http://www.wilaya-laghouat.dz</a></p>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">             
+            <img src="{%static 'images/dgsn.jpg'%}" class="card-img-top" alt="police laghouat">
+            <div class="card-body">
+              <h5 class="card-title">dgsn</h5>
+              <p class="card-text">أرقام الهاتف	029 93 11 05/029 93 10 02</p>
+              <p class="card-text"> أرقام الفاكس	029 93 21 22/029 93 57 57 </p>
+              <p class="card-text"> عنوان الإيميل	wilaya.laghouat@gmail.com   </p>
+              <p class="card-text"> موقع الانترنت	<a href="https://www.algeriepolice.dz/" target="_blank">DGSN</a></p>
+            
+            </div>
+          </div>
+        </div>
+        
+</div>
+
+
+<br><br><br><br><br>
+ 
+
+ {% endblock%}
+</body>

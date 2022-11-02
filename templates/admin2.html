@@ -1,0 +1,89 @@
+
+
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+
+{% load static %}
+
+
+{% block container %}
+<style>
+      
+    body {
+color:black;
+background-color:white;
+background-image:url({% static 'images/Marché_dAflou,_1973.jpg'%});
+background-repeat:no-repeat;
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; /* version standardisée */
+background-attachment:fixed;
+
+
+}
+
+
+</style>
+<center>
+<div class="container">
+  <a href="{% url 'accounts:home'%}"> <h1 style="color:rgb(249, 248, 252);font-size:40px;"> صفحة الادارة</h1></a> 
+  <!--
+  {% for n in news  %} 
+ {{n.desc_n}} <br>
+ {{n.created_n}} <br>
+ {% endfor %} 
+ -->
+ </div>
+</center>
+ <div class="container">
+    <div class="row">
+      <div class="col-10">
+
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+       <!--<div class="card" style="width: 18rem;">
+         <div class="card-header">
+         ادواة الادارة
+         </div>
+           <ul class="list-group list-group-flush">
+            <a href="#"> <li class="list-group-item"> جديد الموقع</li></a>
+            <a href="#"><li class="list-group-item">رسائل و شكاوى الموطنين</li></a>
+            <a href="#"><li class="list-group-item">تاكيد موعيد الاستقبال</li></a>
+          </ul>
+       </div> 
+      </div>
+
+      <div class="col-8">
+-----------------------------
+<form class="row g-3" method="POST" enctype= multipart/form-data >
+  {%csrf_token%}
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> عنوان الصفحة      :</label> 
+{{form_n.page_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> صورة الصفحة         :</label> 
+{{form_n.photo_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> وصف الصفحة     :</label>  
+{{form_n.desc_n}} <br><br><br>
+<button class="btn btn-primary" type="submit">  حــــــفظ</button> <br>
+</form>
+----------------------
+      </div>-->
+    </div>
+
+</div>
+<br><br><br>
+ 
+
+ {% endblock%}
+

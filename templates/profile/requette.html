@@ -1,0 +1,54 @@
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+{% load static %}
+  
+
+{% block container %}
+<style>
+      
+  body {
+color:black;
+background-color:white;
+background-image:url({% static 'images/Marché_dAflou,_1973.jpg'%});
+background-repeat:no-repeat;
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; /* version standardisée */
+background-attachment:fixed;
+
+}
+   
+ 
+</style>
+<center>
+<h1 style="color: #edeef5">ارسال رساله الى السيد رئيس البلدية</h1>
+</center>
+<div class="container">
+  <hr>
+  <form action="" method="POST" enctype= multipart/form-data>
+    {% csrf_token%}
+  {{ form.media }}
+  <label for="Titre" style="color: #e9eef5">  عنوان الرسالة</label>
+  
+  {{form.Titre}} <br><br>
+   
+    <label for="Titre" style="color: #e9eef5"> موضوع متصل  بقطع الاراضي  </label>
+    {{form.lot_terrain}}
+   
+  
+  <br><br>
+  <label for="Titre"> </label>
+  {{form.content}}<br><br>
+  <label for="Titre" style="color: #e9eef5">  ارفاق ملف</label>
+  {{form.join_f}}<br><br>
+  <label for="Titre" style="color: #e9eef5">  ارفاق صورة</label>
+  {{form.photo}}
+  
+  <hr> 
+  <button class="btn btn-primary" type="submit">ارسال</button>
+  <hr>  <br>
+</form>
+
+</div>
+
+  
+{% endblock%}

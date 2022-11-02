@@ -1,0 +1,32 @@
+{%extends 'base.html'%}
+{% load bootstrap4 %}
+
+  
+
+{% block container %}
+
+<div class="container">
+  <h1>تسجيل الدخول</h1>
+  <br>
+      <br>
+  <div class="container">
+  <form action="" method="POST">
+    {% csrf_token %}
+     
+    <label for="username" > اسم المستخدم  :</label>
+      <input type="text" placeholder="username" name="username" aria-label="username" >
+     
+      <br>
+      <br>
+      <label for="username" >  كـلمة المـرور    :</label>
+      <input type="password"  name="password" placeholder="password" aria-label="password" > <br>
+      <br>
+      <br>
+    <button class="btn btn-primary" type="submit">   تسجيل الدخول</button> <br>
+    <a href="{% url 'accounts:register'%}">  اذا كنت لا تملك حسابا سجل الان</a>
+
+    
+  </form>
+</div>
+</div>
+{% endblock%}

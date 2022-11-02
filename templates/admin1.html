@@ -1,0 +1,42 @@
+{% extends "administration.html" %}
+
+
+<div class="container">
+sqfdsfsqdfsdf
+ <form class="row g-3" method="POST" enctype= multipart/form-data >
+  {%csrf_token%}
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> عنوان الصفحة      :</label> 
+{{form_n.page_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> صورة الصفحة         :</label> 
+{{form_n.photo_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> وصف الصفحة     :</label>  
+{{form_n.desc_n}} <br><br><br>
+<button class="btn btn-primary" type="submit">  حــــــفظ</button> <br>
+</form>
+       <!--<div class="card" style="width: 18rem;">
+         <div class="card-header">
+         ادواة الادارة
+         </div>
+           <ul class="list-group list-group-flush">
+            <a href="#"> <li class="list-group-item"> جديد الموقع</li></a>
+            <a href="#"><li class="list-group-item">رسائل و شكاوى الموطنين</li></a>
+            <a href="#"><li class="list-group-item">تاكيد موعيد الاستقبال</li></a>
+          </ul>
+       </div> 
+      </div>
+
+      <div class="col-8">
+-----------------------------
+<form class="row g-3" method="POST" enctype= multipart/form-data >
+  {%csrf_token%}
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> عنوان الصفحة      :</label> 
+{{form_n.page_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> صورة الصفحة         :</label> 
+{{form_n.photo_n}} <br><br><br>
+<label for="form_n.page_n" style="color:rgb(249, 248, 252);font-size:20px;"> وصف الصفحة     :</label>  
+{{form_n.desc_n}} <br><br><br>
+<button class="btn btn-primary" type="submit">  حــــــفظ</button> <br>
+</form>
+----------------------
+      </div>-->
+    </div>

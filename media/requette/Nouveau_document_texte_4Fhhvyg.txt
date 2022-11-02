@@ -1,0 +1,220 @@
+<div class="main-nav-wrapper" style="height: 60px;">
+	<nav id="main-nav" data-skin="search-in-main-nav" class="main-nav header-nav live-search-parent default-behavior-mode fixed-not-bottom fixed fixed-top" aria-label="??????? ????????">
+		<div class="container">
+
+			<div class="main-menu-wrapper">
+
+				
+				<div id="menu-components-wrap">
+
+					
+					<div class="main-menu main-menu-wrap tie-alignleft">
+						<div id="main-nav-menu" class="main-menu header-menu"><ul id="menu-main-menu" class="menu" role="menubar"><li id="menu-item-1311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1015 current_page_item menu-item-1311 tie-current-menu menu-item-has-icon is-icon-only"><a href="https://www.msilawilaya.dz/"> <span aria-hidden="true" class="tie-menu-icon fas fa-home"></span>  <span class="screen-reader-text">????????</span></a></li>
+<li id="menu-item-1294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1294"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/">???????</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-1919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1919"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/">???????</a></li>
+	<li id="menu-item-1295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1295"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/%d8%a7%d9%84%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d8%b4%d8%b9%d8%a8%d9%8a-%d8%a7%d9%84%d9%88%d9%84%d8%a7%d8%a6%d9%8a/">?????? ?????? ???????</a></li>
+	<li id="menu-item-1296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1296"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/%d8%a7%d9%84%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%a7%d9%84%d8%a7%d8%af%d8%a7%d8%b1%d9%8a-%d9%84%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/">???????? ??????? ????????</a></li>
+	<li id="menu-item-1299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1299"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/%d8%a7%d9%84%d8%af%d9%88%d8%a7%d8%a6%d8%b1/">???????</a></li>
+	<li id="menu-item-1297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1297"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/%d8%a7%d9%84%d8%a8%d9%84%d8%af%d9%8a%d8%a7%d8%aa/">????????</a></li>
+	<li id="menu-item-1298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1298"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d9%88%d9%84%d8%a7%d9%8a%d8%a9/%d8%a7%d9%84%d8%a7%d8%af%d8%a7%d8%b1%d8%a7%d8%aa/">????????</a></li>
+</ul>
+</li>
+<li id="menu-item-1310" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1310 mega-menu mega-recent-featured is-loaded" data-id="11"><a href="https://www.msilawilaya.dz/category/%d8%a7%d9%84%d8%aa%d9%86%d9%85%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%8a%d8%a9/">??????? ???????</a>
+<div class="mega-menu-block menu-sub-content">
+
+<div class="mega-menu-content">
+<div class="mega-ajax-content">
+<div class="mega-recent-post tie-animate-slideInUp" style="animation-delay: 0.1s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d8%b2%d9%8a%d8%a7%d8%b1%d8%a9-%d8%aa%d9%81%d9%82%d8%af%d9%8a%d8%a9-%d9%84%d9%85%d8%b9%d8%a7%d9%8a%d9%86%d8%a9-%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a/" title="????? ?????? ?????? ???????? ??????? ????????? ??? ????? ???????">
+
+					<img width="780" height="470" src="https://www.msilawilaya.dz/wp-content/uploads/2022/10/????-780x470.jpg" class="attachment-jannah-image-post size-jannah-image-post wp-post-image" alt="" loading="lazy">
+				</a>
+			</div><!-- .post-thumbnail /-->
+			<div class="post-meta clearfix"><span class="author-meta single-author no-avatars"><span class="meta-item meta-author-wrapper meta-author-64"><span class="meta-author"><a href="https://www.msilawilaya.dz/author/inspecteur/" class="author-name tie-icon" title="ITS">ITS</a></span></span></span><span class="date meta-item tie-icon">??? 5 ????</span><div class="tie-alignright"><span class="meta-comment tie-icon meta-item fa-before">0</span><span class="meta-views meta-item "><span class="tie-icon-fire" aria-hidden="true"></span> 8 </span></div></div><!-- .post-meta -->
+	<h3 class="post-box-title">
+		<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d8%b2%d9%8a%d8%a7%d8%b1%d8%a9-%d8%aa%d9%81%d9%82%d8%af%d9%8a%d8%a9-%d9%84%d9%85%d8%b9%d8%a7%d9%8a%d9%86%d8%a9-%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a/">????? ?????? ?????? ???????? ??????? ????????? ??? ????? ???????</a>
+	</h3>
+
+</div><!-- mega-recent-post -->
+ <div class="mega-check-also">
+<ul style="">
+<li class="mega-menu-post tie-standard tie-animate-slideInUp" style="animation-delay: 0.2s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d9%85%d8%b1%d8%a7%d9%81%d9%82-%d9%88%d9%85%d8%ad%d9%84%d8%a7%d8%aa-%d9%85%d9%87%d9%86%d9%8a%d8%a9-%d8%ba%d9%8a%d8%b1-%d9%85%d8%b3%d8%aa%d8%ba%d9%84%d8%a9-%d9%84%d9%85/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????-??????-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy" srcset="https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????-??????-220x150.jpg 220w, https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????-??????-300x203.jpg 300w, https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????-??????-768x520.jpg 768w, https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????-??????.jpg 816w" sizes="(max-width: 220px) 100vw, 220px">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d9%85%d8%b1%d8%a7%d9%81%d9%82-%d9%88%d9%85%d8%ad%d9%84%d8%a7%d8%aa-%d9%85%d9%87%d9%86%d9%8a%d8%a9-%d8%ba%d9%8a%d8%b1-%d9%85%d8%b3%d8%aa%d8%ba%d9%84%d8%a9-%d9%84%d9%85/">????? ????? ?????? ????? ??? ?????? ??????? ?????? ?????? ???????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">??? 3 ??????</span></div><!-- .post-meta -->	</div>
+
+</li>
+
+<li class="mega-menu-post tie-animate-slideInUp" style="animation-delay: 0.3s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d9%84%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/????-?????9-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d9%85%d8%aa%d8%a7%d8%a8%d8%b9%d8%a9-%d9%84%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af/">?????? ????????? ??????? ?????? ??????? ?????? 2022-2023 ?????? ???????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">??? 3 ??????</span></div><!-- .post-meta -->	</div>
+
+</li>
+
+<li class="mega-menu-post tie-animate-slideInUp" style="animation-delay: 0.4s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d9%85%d8%b9%d8%a7%d9%8a%d9%86%d8%a9-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1-%d9%85%d8%aa%d9%88%d8%b3%d8%b7%d8%a9-%d8%a7%d9%84%d9%88%d9%8a%d9%84%d8%ad%d8%a9-%d8%a7%d9%84%d8%ac/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/??????1-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d9%85%d8%b9%d8%a7%d9%8a%d9%86%d8%a9-%d8%b9%d9%85%d9%84%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1-%d9%85%d8%aa%d9%88%d8%b3%d8%b7%d8%a9-%d8%a7%d9%84%d9%88%d9%8a%d9%84%d8%ad%d8%a9-%d8%a7%d9%84%d8%ac/">?????? ????? ????? ?????? ???????? ???????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">??? 4 ??????</span></div><!-- .post-meta -->	</div>
+
+</li>
+
+<li class="mega-menu-post tie-animate-slideInUp" style="animation-delay: 0.5s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d8%b2%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d9%81%d9%82%d8%af%d9%8a%d8%a9-%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/????13.-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d8%b2%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d9%81%d9%82%d8%af%d9%8a%d8%a9-%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88/">?????? ??????? ????? ????????? ??????? ?????? ??????? ?????? ????? ???????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">??? 4 ??????</span></div><!-- .post-meta -->	</div>
+
+</li>
+
+<li class="mega-menu-post tie-animate-slideInUp" style="animation-delay: 0.6s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a-%d8%af%d8%a7%d8%a6/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????1-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a-%d8%af%d8%a7%d8%a6/">????????? ??????? ?????? ??????? ????? ???? ??????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">??? 4 ??????</span></div><!-- .post-meta -->	</div>
+
+</li>
+
+<li class="mega-menu-post tie-animate-slideInUp" style="animation-delay: 0.7s">
+
+	
+			<div class="post-thumbnail">
+				<a class="post-thumb" href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a-%d8%a7%d9%84%d9%85-2/">
+										<img width="220" height="150" src="https://www.msilawilaya.dz/wp-content/uploads/2022/09/?????1-220x150.jpg" class="attachment-jannah-image-small size-jannah-image-small tie-small-image wp-post-image" alt="" loading="lazy">				</a>
+			</div><!-- .post-thumbnail /-->
+			
+	<div class="post-details">
+		<h3 class="post-box-title">
+			<a class="mega-menu-link" href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9-%d9%84%d9%84%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a-%d8%a7%d9%84%d9%85-2/">????????? ??????? ?????? ??????? ?????? ????? ???????</a>
+		</h3>
+
+		<div class="post-meta clearfix"><span class="date meta-item tie-icon">8 ??????? 2022</span></div><!-- .post-meta -->	</div>
+
+</li>
+</ul>
+</div><!-- mega-check-also --></div><!-- .mega-ajax-content -->
+
+</div><!-- .mega-menu-content -->
+
+</div><!-- .mega-menu-block --> 
+</li>
+<li id="menu-item-1306" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1306"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/">???????</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-1309" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1309"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa/">??????</a></li>
+	<li id="menu-item-1307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1307"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d8%b9%d9%84%d8%a7%d9%86%d8%a7%d8%aa/">???????</a></li>
+	<li id="menu-item-4069" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4069"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/">??????????</a></li>
+	<li id="menu-item-1308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1308"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d9%84%d9%85%d9%86%d8%a7%d9%82%d8%b5%d8%a7%d8%aa/">?????????</a></li>
+	<li id="menu-item-4071" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4071"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d9%85%d9%86%d8%ad/">??????? ??????</a></li>
+	<li id="menu-item-4070" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4070"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d8%a7%d9%84%d8%ba%d8%a7%d8%a1/">??????? ????????</a></li>
+	<li id="menu-item-4072" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4072"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa-%d8%b9%d8%af%d9%85-%d8%a7%d9%84%d8%ac%d8%af%d9%88%d9%89/">??????? ??? ??????</a></li>
+	<li id="menu-item-4074" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4074"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%b9%d8%b1%d9%88%d8%b6-%d8%b9%d9%85%d9%84/">???? ???</a></li>
+	<li id="menu-item-4073" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4073"><a href="https://www.msilawilaya.dz/category/%d8%a7%d8%b4%d8%b9%d8%a7%d8%b1%d8%a7%d8%aa/%d8%a7%d9%85%d8%aa%d8%ad%d8%a7%d9%86%d8%a7%d8%aa-%d9%88-%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa/">???????? ? ???????</a></li>
+</ul>
+</li>
+<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1301"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%b4%d8%a8%d8%a7%d9%83-%d8%a7%d9%84%d8%a7%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a/">?????? ??????????</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-1316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1316"><a href="https://services.interieur.gov.dz/Autorisation">???? ?????????</a></li>
+	<li id="menu-item-1317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317"><a href="https://prestations.interieur.gov.dz/association/">??? ????? ??????? ???????? ???????? ??????? ? ???? ??????? ??? ?????????</a></li>
+	<li id="menu-item-1318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1318"><a href="https://capacitepc.interieur.gov.dz/">??? ????? ??????? ????? ???????</a></li>
+	<li id="menu-item-1319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1319"><a href="https://passeport.interieur.gov.dz/Ar/Accueil/Accueil">???? ????? ?????????</a></li>
+	<li id="menu-item-1320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1320"><a href="https://macnibe.interieur.gov.dz/WFDefaultAr.aspx">????? ??????? ??????? ???????????</a></li>
+	<li id="menu-item-1321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1321"><a href="https://demande12s.interieur.gov.dz/Ar/default.aspx">????? ??????? 12 S</a></li>
+	<li id="menu-item-1302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1302"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%b4%d8%a8%d8%a7%d9%83-%d8%a7%d9%84%d8%a7%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a/%d8%a7%d9%84%d9%88%d8%ab%d8%a7%d8%a6%d9%82/">???????</a></li>
+	<li id="menu-item-1303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1303"><a href="https://www.msilawilaya.dz/%d8%a7%d9%84%d8%b4%d8%a8%d8%a7%d9%83-%d8%a7%d9%84%d8%a7%d9%84%d9%83%d8%aa%d8%b1%d9%88%d9%86%d9%8a/%d8%a7%d9%84%d9%85%d8%b5%d8%a7%d9%84%d8%ad/">???????</a></li>
+</ul>
+</li>
+<li id="menu-item-1312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1312"><a>?????? ??????? ?? ???</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-1313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1313"><a href="https://etatcivil.interieur.gov.dz/">????? ???????</a></li>
+	<li id="menu-item-1314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1314"><a href="https://etatcivil.interieur.gov.dz/ActeMariage/">??? ??????</a></li>
+	<li id="menu-item-1315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1315"><a href="https://etatcivil.interieur.gov.dz/ActeDeces/">????? ??????</a></li>
+</ul>
+</li>
+<li id="menu-item-1993" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1993"><a href="https://prestations.interieur.gov.dz/guichet/">?????? ?? ???</a></li>
+<li id="menu-item-2493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2493"><a href="https://www.msilawilaya.dz/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%88-%d8%b9%d8%b1%d8%a7%d8%a6%d8%b6/">????? ?????? <small class="menu-tiny-label " style="background-color:#dd3333; color:#FFFFFF">????</small></a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-3017" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3017"><a href="https://nechki.interieur.gov.dz/">????</a></li>
+	<li id="menu-item-2492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2492"><a href="https://www.msilawilaya.dz/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%88-%d8%b9%d8%b1%d8%a7%d8%a6%d8%b6/">????? ??????</a></li>
+	<li id="menu-item-1699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1699"><a href="https://www.msilawilaya.dz/%d8%b7%d9%84%d8%a8-%d9%85%d9%82%d8%a7%d8%a8%d9%84%d8%a9-%d8%a7%d9%84%d8%b3%d9%8a%d8%af-%d8%a7%d9%84%d9%88%d8%a7%d9%84%d9%8a/">??? ??????</a></li>
+	<li id="menu-item-1305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1305"><a href="https://www.msilawilaya.dz/%d8%a7%d8%aa%d8%b5%d9%84-%d8%a8%d9%86%d8%a7/">???? ???</a></li>
+	<li id="menu-item-2522" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2522"><a href="https://www.msilawilaya.dz/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%88-%d8%b9%d8%b1%d8%a7%d8%a6%d8%b6/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/">??????? ??? ??????? <small class="menu-tiny-label " style="background-color:#e74c3c; color:#FFFFFF">????</small></a>
+	<ul class="sub-menu menu-sub-content">
+		<li id="menu-item-2637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2637"><a href="https://www.msilawilaya.dz/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%88-%d8%b9%d8%b1%d8%a7%d8%a6%d8%b6/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/">????????? ?????????</a></li>
+		<li id="menu-item-2635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2635"><a href="https://www.msilawilaya.dz/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%88-%d8%b9%d8%b1%d8%a7%d8%a6%d8%b6/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d8%a7%d9%84%d8%af%d9%88%d8%a7%d8%a6%d8%b1/">????????? ???????</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2146-fr" class="lang-item lang-item-78 lang-item-fr lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-2146-fr"><a href="https://www.msilawilaya.dz/fr/home-francais/" hreflang="fr-FR" lang="fr-FR">Français</a></li>
+</ul></div>					</div><!-- .main-menu.tie-alignleft /-->
+
+					<ul class="components">		<li class="search-compact-icon menu-item custom-menu-link">
+			<a href="#" class="tie-search-trigger">
+				<span class="tie-icon-search tie-search-icon" aria-hidden="true"></span>
+				<span class="screen-reader-text">??? ??</span>
+			</a>
+		</li>
+			<li class="side-aside-nav-icon menu-item custom-menu-link">
+		<a href="#">
+			<span class="tie-icon-navicon" aria-hidden="true"></span>
+			<span class="screen-reader-text">????? ???? ?????</span>
+		</a>
+	</li>
+	</ul><!-- Components -->
+				</div><!-- #menu-components-wrap /-->
+			</div><!-- .main-menu-wrapper /-->
+		</div><!-- .container /-->
+	</nav><!-- #main-nav /-->
+</div>
