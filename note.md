@@ -2,7 +2,9 @@ last check point
 weather app x x
 pagination added need to enhance style $
 filtrage par association page admin x
-
+admin inside the website 
+user :apckhaled
+pwd: AZER1234
 
 
 
